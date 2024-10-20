@@ -58,7 +58,7 @@ const HomeSection = () => {
               </a>
             </div>
             <a
-              href="https://drive.google.com/file/d/1U9qOeWDVS3J1uPXoeDO80cJ3yVYBRNfj/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1dDG-QQGsmdzcK9fOytnqv6XpBsLh0vQB/view?usp=drive_link"
               download
               className="btnn"
             >

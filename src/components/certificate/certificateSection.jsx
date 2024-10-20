@@ -50,6 +50,12 @@ const Certification = () => {
                 data-bs-slide-to="4"
                 aria-label="Slide 5"
               ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="10000">
@@ -66,6 +72,9 @@ const Certification = () => {
               </div>
               <div className="carousel-item">
                 <img src="img/TC.jpg" className="d-block w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src="img/Intern.jpg" className="d-block w-100" alt="..." />
               </div>
             </div>
             <button
