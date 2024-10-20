@@ -3,7 +3,7 @@ import "./work.css";
 
 const ProjectSection = () => {
   return (
-    <section className="project" id="project">
+    <section className="project red" id="project">
       <h2 className="gf_h2 text-dark heading">
         <i className="bi bi-briefcase-fill"></i>
         Featured<span> Work</span>
@@ -104,6 +104,7 @@ const ProjectSection = () => {
           </div>
         </div>
       </div>
+      
     </section>
   );
 };

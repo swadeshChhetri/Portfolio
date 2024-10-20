@@ -3,7 +3,7 @@ import "./certificate.css";
 
 const Certification = () => {
   return (
-    <section style={{ marginTop: "8rem" }} id="certification">
+    <section id="certification">
       <h2>
         <i className="bi bi-award-fill"></i>Certifi<span>cation</span>
       </h2>

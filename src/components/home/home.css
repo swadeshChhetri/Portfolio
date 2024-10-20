@@ -11,7 +11,7 @@
 }
 
 .home-content h3:nth-of-type(2) {
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 span {
   color: #ffa914;
@@ -32,6 +32,45 @@ span {
   float: right;
   animation: floatImage 3.8s ease-in-out infinite;
 }
+
+/* .blue {
+  background: #3c31dd;
+}
+
+.curve {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.curve::before{
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  transform: translate(83%, 51%);
+  background-color: hsl(216, 21%, 16%);
+  z-index: 1;
+  }
+  
+
+	.curve::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 58%;
+    height: 110%;
+    background-color: #3c31dd;
+    transform: translate(-15%, 35%);
+    z-index: 1;
+  }
+     */
+
 
 @keyframes floatImage {
   0% {

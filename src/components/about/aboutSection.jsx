@@ -1,11 +1,14 @@
 import React from "react";
 import "./about.css";
-import { Link } from "react-scroll";
 
 const AboutSection = () => {
   return (
     <>
-      <section className="about" id="about">
+      <section style={{padding: "50px"}}  id="about">
+      <h2 className="gf_h2 text-dark heading"  >
+              <i className="bi bi-person-fill-check"></i>
+              ABOUT<span>Me</span>
+            </h2>
         <div className="about-container">
           <div
             className="img-container"
@@ -19,10 +22,6 @@ const AboutSection = () => {
             data-aos="fade-left"
             data-aos-duration="1500"
           >
-            <h2 className="gf_h2 text-dark heading">
-              <i className="bi bi-person-fill-check"></i>
-              ABOUT<span>Me</span>
-            </h2>
             <p>
               <h3><strong>Hi, I'm Swadesh</strong></h3> <h3 style={{marginBottom:'15px'}}><strong>Frontend Developer | Bengaluru, India</strong></h3>I specialize
               in creating responsive and dynamic web applications using a range
@@ -40,7 +39,7 @@ const AboutSection = () => {
           </div>
         </div>
       </section>
-    </>
+      </>
   );
 };
 

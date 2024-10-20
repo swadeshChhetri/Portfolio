@@ -12,9 +12,9 @@ const HeaderSection = () => {
       </div>
       <div className="desktopMenu">
         <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem nav-link">Home</Link>
-        <Link activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem nav-link">About</Link>
-        <Link activeClass='active' to='expertises' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem nav-link">Expertise</Link>
-        <Link activeClass='active' to='project' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem nav-link">Projects</Link>
+        <Link activeClass='active' to='about' spy={true} smooth={true} offset={-59} duration={500} className="desktopMenuListItem nav-link">About</Link>
+        <Link activeClass='active' to='expertises' spy={true} smooth={true} offset={-45} duration={500} className="desktopMenuListItem nav-link">Expertise</Link>
+        <Link activeClass='active' to='project' spy={true} smooth={true} offset={-60} duration={500} className="desktopMenuListItem nav-link">Projects</Link>
       </div>
  
       <div>
@@ -31,7 +31,7 @@ const HeaderSection = () => {
       <div className="navMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
         <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Home</Link>
         <Link activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>About</Link>
-        <Link activeClass='active' to='expertises' spy={true}smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Expertise</Link>
+        <Link activeClass='active' to='expertises' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Expertise</Link>
         <Link activeClass='active' to='project' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Projects</Link>
         <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
 

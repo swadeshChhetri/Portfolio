@@ -3,7 +3,7 @@ import "./expertise.css";
 
 const ExpertiseSection = () => {
   return (
-    <section className="expertises" id="expertises">
+    <section id="expertises">
       <h2 className="gf_h2 text-dark heading">
       <i className="bi bi-laptop"></i>
         Skill<span> Expertise</span>

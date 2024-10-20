@@ -14,17 +14,9 @@
     font-weight: 600;
 }
 
-.about-me h2 {
-  margin-bottom: 5rem;
+#about h2 {
   font-size: 4rem;
   font-weight: bold;
-}
-
-
-.about-content h2 {
-  line-height: 1.2;
-
-  text-align: left;
 }
 
 .about-container {
@@ -50,42 +42,6 @@
   margin-left: 2rem;
 }
 
-/* @media screen and (max-width: 768px) {
-.img-container {
-  margin-right: 4rem;
-}
-.img-cont {
-  height: 350px;
-  width: 261px;
-}
-}
-
-@media screen and (max-width: 576px) {
-  .about-container {
-    padding: 2.8rem;
-    display: block;
-  }
-  .img-container {
-    padding: 0rem;
-  }
-  .about-me {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 365px){
-  .about-container {
-    padding-left: 1rem;
-}
-.about-me p {
-  font-size: 1rem;
-}
-.img-cont {
-  height: 25rem;
-  width: 23rem;
-} */
-
-/* } */
 
 @media screen and (max-width: 1024px){
 

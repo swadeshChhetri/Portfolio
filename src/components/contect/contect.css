@@ -1,11 +1,11 @@
-.contact h2 {
+#contact h2 {
   margin-bottom: 5rem;
     font-size: 4rem;
     font-weight: bold;
 }
 
 
-.contact form {
+#contact form {
     margin: 2rem 3rem 2rem 4rem !important;
     background-color: #fff;
     border-radius: 14px;
@@ -21,14 +21,14 @@
   display: flex;
 }
 
-.contact form .input-box {
+#contact form .input-box {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.contact form .input-box input,
-.contact form textarea {
+#contact form .input-box input,
+#contact form textarea {
      width: 100%; 
     padding: 1rem;
     /* font-size: 1.6rem; */
@@ -40,11 +40,11 @@
     /* color: white;*/
 }
 
-.contact form .input-box input {
+#contact form .input-box input {
   width: 49%;
 }
 
-.contact form textarea {
+#contact form textarea {
   resize: none;
 }
 button i {

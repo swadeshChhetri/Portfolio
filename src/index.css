@@ -38,12 +38,21 @@ h2:after {
   margin-top: -15px;
 } 
 
-
+/* section {
+  padding: 0.5rem 4% 1rem; */
+  /* margin-bottom: 2rem; */
+  /* position: relative;
+} */
 section {
   padding: 1rem 8% 1rem;
   margin-bottom: 2rem;
   position: relative;
 }
+
+
+/* section {
+  position: relative;
+}  */
 
 
 .btnn {
@@ -55,26 +64,11 @@ section {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
   color: #ffffff;
   text-decoration: none;
-  /* transition: 0.3s ease all; */
   z-index: 1;
   margin: 60px 20px 20px 0px;
   background-color: #2196F3 ;
 }
 
-/* .btnn:before {
-  transition: 0.5s all ease;
-  position: absolute;
-
-  top: 0;
-  left: 50%;
-  right: 50%;
-  bottom: 0;
-  opacity: 0;
-  border-radius: 1rem;
-  content:"";
-  background-color: #16a085;
-  z-index: -1;
-} */
 
 .btnn:hover,
 .btnn:focus {
@@ -101,18 +95,3 @@ h2 {
 
 @media screen and (max-width: 768px) {
 }
-
-/* @media screen and (max-width: 576px) {
-  .btnn {
-    margin: 2rem 1rem 2rem 0rem;
-    padding: 0.6rem;
-    font-size: 0.8rem;
-  }
-  .about h2,
-  .expertises h2,
-  .contact h2,
-  .project h2 {
-    margin-top: 3rem;
-    font-size: 2rem;
-  }
-} */
