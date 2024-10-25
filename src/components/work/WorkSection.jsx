@@ -52,10 +52,12 @@ const ProjectSection = () => {
           <div className="project-layer">
             <h4>Flavordash</h4>
             <p></p>
-            <i
+            <a
+              href="https://swadeshchhetri.github.io/FlavorDash/"
               className="bi bi-box-arrow-up-right"
               style={{ fontSize: "18px", textDecoration: "none" }}
-            ></i>
+            ></a>
+
           </div>
         </div>
 
