@@ -70,10 +70,11 @@ const ProjectSection = () => {
           <div className="project-layer">
             <h4>ToDo-list App</h4>
 
-            <i
+            <a
+              href="https://swadeshchhetri.github.io/Todo-list/"
               className="bi bi-box-arrow-up-right"
               style={{ fontSize: "18px", textDecoration: "none" }}
-            ></i>
+            ></a>
           </div>
         </div>
         <div
@@ -84,7 +85,11 @@ const ProjectSection = () => {
           <img src="img/Calculator.png" alt=" " />
           <div className="project-layer">
             <h4>Calculator</h4>
-
+            <a
+              href="https://swadeshchhetri.github.io/Calculator/"
+              className="bi bi-box-arrow-up-right"
+              style={{ fontSize: "18px", textDecoration: "none" }}
+            ></a>
             <i
               className="bi bi-box-arrow-up-right"
               style={{ fontSize: "18px", textDecoration: "none" }}
@@ -96,13 +101,14 @@ const ProjectSection = () => {
           data-aos="fade-up"
           data-aos-duration="1500"
         >
-          <img src="img/QuizApp.png" alt=" " />
+          <img src="img/connect4.png" alt=" " />
           <div className="project-layer">
-            <h4>QuizApp</h4>
-            <i
+            <h4>Connect4</h4>
+            <a
+              href="https://swadeshchhetri.github.io/Connect4/"
               className="bi bi-box-arrow-up-right"
               style={{ fontSize: "18px", textDecoration: "none" }}
-            ></i>
+            ></a>
           </div>
         </div>
       </div>
