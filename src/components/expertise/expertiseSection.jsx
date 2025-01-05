@@ -71,16 +71,36 @@ const ExpertiseSection = () => {
         </div>
 
         <div
-   className="expertise-box"
-   data-aos="flip-left"
-   data-aos-duration="1500"
- >
+          className="expertise-box"
+          data-aos="flip-left"
+          data-aos-duration="1500"
+        >
   
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
-          
-   <i className="fa-solid fa-android"></i>
- </div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
+                  
+          <i className="fa-solid fa-android"></i>
+        </div>
 
+        <div
+          className="expertise-box"
+          data-aos="flip-left"
+          data-aos-duration="1500"
+        >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+
+          <i className="fa-solid fa-android"></i>
+        </div>
+
+        <div
+          className="expertise-box"
+          data-aos="flip-left"
+          data-aos-duration="1500"
+        >
+        
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+          
+        <i className="fa-solid fa-android"></i>
+        </div>
 
         <div
           className="expertise-box"
