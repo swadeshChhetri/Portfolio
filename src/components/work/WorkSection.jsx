@@ -48,12 +48,12 @@ const ProjectSection = () => {
           data-aos="fade-down"
           data-aos-duration="1500"
         >
-          <img src="img/foodD.png" alt=" " />
+          <img src="img/dashboard.jpg" alt=" " />
           <div className="project-layer">
-            <h4>Flavordash</h4>
+            <h4>Coming Soon...</h4>
             <p></p>
             <a
-              href="https://swadeshchhetri.github.io/FlavorDash/"
+              href=""
               className="bi bi-box-arrow-up-right"
               style={{ fontSize: "18px", textDecoration: "none" }}
             ></a>
