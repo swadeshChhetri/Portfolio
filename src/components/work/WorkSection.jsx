@@ -90,10 +90,6 @@ const ProjectSection = () => {
               className="bi bi-box-arrow-up-right"
               style={{ fontSize: "18px", textDecoration: "none" }}
             ></a>
-            <i
-              className="bi bi-box-arrow-up-right"
-              style={{ fontSize: "18px", textDecoration: "none" }}
-            ></i>
           </div>
         </div>
         <div
