@@ -50,7 +50,8 @@ const ProjectSection = () => {
         >
           <img src="img/dashboard.jpg" alt=" " />
           <div className="project-layer">
-            <h4>Coming Soon...</h4>
+            <h4>Finance-Management-Portal</h4>
+            <p>Please Register and log-in to check out Finance Portal </p>
             <p></p>
             <a
               href="https://crisscrosstamizh.in/WDI-OCT-24/fmp/FinancialManagementSystem/Pages/login.html"
