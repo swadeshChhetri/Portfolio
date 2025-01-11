@@ -10,7 +10,7 @@ const HomeSection = () => {
     const options = {
       strings: [
         "Dynamic Web Creations",
-        "Front-End Developer",
+        "Full-Stack Developer",
         "Responsive Web Designer",
       ],
       typeSpeed: 40,
