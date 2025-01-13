@@ -9,6 +9,7 @@ const ProjectSection = () => {
         Featured<span> Work</span>
       </h2>
       <div className="project-container">
+
         <div
           className="project-box"
           data-aos="fade-down"
@@ -78,6 +79,7 @@ const ProjectSection = () => {
             ></a>
           </div>
         </div>
+
         <div
           className="project-box"
           data-aos="fade-up"
@@ -93,6 +95,7 @@ const ProjectSection = () => {
             ></a>
           </div>
         </div>
+
         <div
           className="project-box"
           data-aos="fade-up"
@@ -108,8 +111,26 @@ const ProjectSection = () => {
             ></a>
           </div>
         </div>
+        
+        <div
+          style={{textAlign: "center;"}}
+          className="project-box"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          <img src="img/AI.jpeg" alt=" " />
+          <div className="project-layer">
+            <h4>AI- Powered Task Automation Tool</h4>
+            <p>WORKING ON IT...</p>
+            <a
+              href=""
+              className="bi bi-box-arrow-up-right"
+              style={{ fontSize: "18px", textDecoration: "none" }}
+            ></a>
+          </div>
+        </div>
+
       </div>
-      
     </section>
   );
 };
