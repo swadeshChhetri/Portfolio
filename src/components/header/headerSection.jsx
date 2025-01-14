@@ -7,15 +7,23 @@ import { FaSun, FaMoon } from "react-icons/fa";
 const HeaderSection = ({toggleTheme, isDaylight}) => {
 const [showMenu, setShowMenu] = useState(false);
 const [isShaking, setIsShaking] = useState(false);
+const [intervalId, setIntervalId] = useState(null);
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
+    const id = setInterval(() => {
       setIsShaking((prevState) => !prevState); // Toggle shaking every interval
-    }, 1000); // 1000ms (1 second) interval
+    }, 1800); // 1000ms (1 second) interval
+    setIntervalId(id);
 
     // Cleanup the interval when the component unmounts
-    return () => clearInterval(intervalId);
+    return () => clearInterval(id);
   }, []); 
+
+  const handleContactClick = () => { 
+    setIsShaking(false);
+    document.getElementById('contact').scrollIntoView();
+    clearInterval(intervalId);
+   }
 
   return (
     <navbar className='navBar'>
@@ -34,7 +42,7 @@ const [isShaking, setIsShaking] = useState(false);
       </div>
  
       <div>
-      <button style={{marginTop: "0.4rem"}} className={`desktopMenuBtn ${isShaking ? "shake" : ""}`} onClick={() => document.getElementById('contact').scrollIntoView()}>
+      <button style={{marginTop: "0.4rem"}} className={`desktopMenuBtn ${isShaking ? "shake" : ""}`} onClick={handleContactClick}>
          Contact
       </button>
       </div>
