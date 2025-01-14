@@ -11,13 +11,19 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function App() {
+const [isDaylight, setIsDaylight] = useState(true);
+
   useEffect(() => {
     Aos.init();
   }, []);
 
+  const toggleTheme = () => { 
+    setIsDaylight(!isDaylight);
+   };
+
   return (
-    <>
-      <HeaderSection />
+    <div className={isDaylight ? 'bg-light text-dark' : 'bg-dark'} style={{ minHeight: '100vh'}}>
+      <HeaderSection toggleTheme = {toggleTheme} isDaylight = {isDaylight} />
       <HomeSection />
       <AboutSection />
       <ExpertiseSection />
@@ -25,7 +31,7 @@ function App() {
       <Certification />
       <ContactSection />
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -6,7 +6,7 @@ import "./contect.css";
 const ContactSection = () => {
   return (
     <section  id="contact">
-      <h2 className="gf_h2 text-dark heading">
+      <h2 className="gf_h2 heading">
         <i className="bi bi-telephone-outbound-fill"></i>
         Let's<span>Connect</span>
       </h2>

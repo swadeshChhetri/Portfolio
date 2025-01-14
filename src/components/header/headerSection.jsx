@@ -1,9 +1,21 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './header.css';
 import { Link } from 'react-scroll';
+import { FaSun, FaMoon } from "react-icons/fa"; 
 
-const HeaderSection = () => {
-  const [showMenu, setShowMenu] = useState(false);
+
+const HeaderSection = ({toggleTheme, isDaylight}) => {
+const [showMenu, setShowMenu] = useState(false);
+const [isShaking, setIsShaking] = useState(false);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setIsShaking((prevState) => !prevState); // Toggle shaking every interval
+    }, 1000); // 1000ms (1 second) interval
+
+    // Cleanup the interval when the component unmounts
+    return () => clearInterval(intervalId);
+  }, []); 
 
   return (
     <navbar className='navBar'>
@@ -15,10 +27,14 @@ const HeaderSection = () => {
         <Link activeClass='active' to='about' spy={true} smooth={true} offset={-59} duration={500} className="desktopMenuListItem nav-link">About</Link>
         <Link activeClass='active' to='expertises' spy={true} smooth={true} offset={-45} duration={500} className="desktopMenuListItem nav-link">Expertise</Link>
         <Link activeClass='active' to='project' spy={true} smooth={true} offset={-60} duration={500} className="desktopMenuListItem nav-link">Projects</Link>
+
+        <button className="daynight" onClick={toggleTheme}>
+         {isDaylight ? <FaMoon size={20} /> : <FaSun size={20} />}
+        </button>
       </div>
  
       <div>
-      <button className="desktopMenuBtn" onClick={() => document.getElementById('contact').scrollIntoView()}>
+      <button style={{marginTop: "0.4rem"}} className={`desktopMenuBtn ${isShaking ? "shake" : ""}`} onClick={() => document.getElementById('contact').scrollIntoView()}>
          Contact
       </button>
       </div>

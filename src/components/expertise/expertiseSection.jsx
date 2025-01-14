@@ -4,7 +4,7 @@ import "./expertise.css";
 const ExpertiseSection = () => {
   return (
     <section id="expertises">
-      <h2 className="gf_h2 text-dark heading">
+      <h2 className="gf_h2 heading">
       <i className="bi bi-laptop"></i>
         Skill<span> Expertise</span>
       </h2>

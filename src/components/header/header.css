@@ -1,6 +1,5 @@
 
 .navBar {
-   
    width: 100%;
    padding: 1rem;
    background-color: #fff;
@@ -15,10 +14,12 @@
 }
 .logo{
   width: 18%;
+  border-radius: 5rem;
 }
 .desktopMenu {
   padding: 0.9rem;
   display: flex;
+  align-items: center;
 }
 
 .desktopMenu a {
@@ -84,6 +85,19 @@
 .nav-link:focus {
    color: var(--bs-nav-link-hover-color); 
    color: #f20d06  !important;
+}
+
+/* styles.css */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.5s ease-in-out;
 }
 
 .desktopMenuBtn {
