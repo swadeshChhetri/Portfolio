@@ -181,7 +181,6 @@ span {
 }
 .btnn {
   padding: 1rem !important;
-  margin: 30px 42px 20px -8px !important;
 }
 }
 @media screen and (max-width: 768px){
@@ -200,11 +199,11 @@ span {
  
 }
 .img-cont {
-  margin-left: 11rem;
+  margin-left: 6rem;
 }
 .about-me {
   width: 100%;
-  padding: 0 7rem;
+  padding: 0 0.5rem;
 }
 .box {
   display: block;
