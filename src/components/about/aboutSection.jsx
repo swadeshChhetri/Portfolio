@@ -43,7 +43,7 @@ const AboutSection = () => {
             </p>
             <a
               className="btnn"
-              href="https://drive.google.com/file/d/1awdoxfXJjEa5D5V58dKIQInDl4gP6PFK/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1awdoxfXJjEa5D5V58dKIQInDl4gP6PFK/view?usp=sharing"
             >
               Resume
             </a>
