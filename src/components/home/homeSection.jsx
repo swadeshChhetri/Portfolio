@@ -9,9 +9,9 @@ const HomeSection = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Dynamic Web Creations",
-        "Full-Stack Developer",
-        "Responsive Web Designer",
+        "Full-Stack Web Application Developer",
+        "Creator of Dynamic Web Solutions",
+        "Expert in Responsive Web Design",
       ],
       typeSpeed: 40,
       backSpeed: 15,
@@ -50,7 +50,7 @@ const HomeSection = () => {
               <a href="https://www.instagram.com/swadesh.85/">
                 <i className="bi bi-instagram"></i>
               </a>
-              <a href="https://www.linkedin.com/in/swadesh85/">
+              <a href="https://www.linkedin.com/in/swadeshchhetri">
                 <i className="bi bi-linkedin color"></i>
               </a>
               <a href="https://github.com/swadeshChhetri">
@@ -58,7 +58,7 @@ const HomeSection = () => {
               </a>
             </div>
             <a
-              href="https://drive.google.com/file/d/1Xn1HWGLGCbL0fTGZGYnZc_IzMc3hOZt9/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1xZXaREMOSTXD5Epqx6D7BIzSJYF8HuoA/view?usp=sharing"
               download
               className="btnn"
             >

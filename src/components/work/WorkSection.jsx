@@ -73,6 +73,58 @@ const ProjectSection = () => {
           </div>
         </div>
 
+        {/* New Projects  */}
+        <div
+          className="project-box"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
+          <img src="img/konnektglobe.png" alt="" />
+          <div className="project-layer">
+            <h4>KonnektGlobe</h4>
+            <p></p>
+            <a
+              href="https://konnektglobe.vercel.app/"
+              className="bi bi-box-arrow-up-right"
+              style={{ fontSize: "18px", textDecoration: "none" }}
+            ></a>
+          </div>
+        </div>
+
+        <div
+          className="project-box"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
+          <img src="img/indtecexpo.png" alt=" " />
+          <div className="project-layer">
+            <h4>INDTECEXPO</h4>
+            <p></p>
+            <a
+              href="https://indtecexpo.vercel.app/"
+              className="bi bi-box-arrow-up-right"
+              style={{ fontSize: "18px", textDecoration: "none" }}
+            ></a>
+          </div>
+        </div>
+
+        <div
+          className="project-box"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
+          <img src="img/jaguar.png" alt=" " />
+          <div className="project-layer">
+            <h4>Jaguar Media & Entertainment </h4>
+            <a
+              href="https://jaguarmedia.vercel.app/"
+              className="bi bi-box-arrow-up-right"
+              style={{ fontSize: "18px", textDecoration: "none" }}
+            ></a>
+          </div>
+        </div>
+
+
         <div
           className="project-box"
           data-aos="fade-up"
@@ -116,24 +168,6 @@ const ProjectSection = () => {
             <h4>Connect4</h4>
             <a
               href="https://swadeshchhetri.github.io/Connect4/"
-              className="bi bi-box-arrow-up-right"
-              style={{ fontSize: "18px", textDecoration: "none" }}
-            ></a>
-          </div>
-        </div>
-        
-        <div
-          style={{textAlign: "center;"}}
-          className="project-box"
-          data-aos="fade-up"
-          data-aos-duration="1500"
-        >
-          <img src="img/AI.jpeg" alt=" " />
-          <div className="project-layer">
-            <h4>AI- Powered Task Automation Tool</h4>
-            <p>WORKING ON IT...</p>
-            <a
-              href=""
               className="bi bi-box-arrow-up-right"
               style={{ fontSize: "18px", textDecoration: "none" }}
             ></a>

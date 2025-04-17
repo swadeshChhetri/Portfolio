@@ -29,21 +29,34 @@ const AboutSection = () => {
               <h3 style={{ marginBottom: "15px" }}>
                 <strong>Full-Stack Developer | Bengaluru, India</strong>
               </h3>
-              I am a passionate and hardworking professional with experience in
-              Full-Stack Web Development.<br/> I enjoy building user-friendly and
-              efficient solutions using technologies like HTML, CSS, JavaScript,
-              and modern frameworks.<br/> I have worked on developing a company
-              portal, which reflects my ability to manage projects effectively
-              and deliver impactful results.<br/> Additionally, I gained valuable
-              industry experience through a Full-Stack web development
-              internship with a Tamil Nadu-based company.<br/> I thrive in team
-              environments where I can collaborate and bring creative ideas to
-              life.<br/> My goal is to create meaningful projects that solve
-              real-world problems and add value to businesses.
+              I am a passionate and hardworking Full-Stack Web Application
+              Developer with hands-on experience in building real-world web
+              solutions.
+              <br />
+              I specialize in creating responsive, user-friendly applications
+              using technologies like HTML, CSS, JavaScript, Laravel, Next.js,
+              TypeScript, and Tailwind CSS.
+              <br />
+              I have successfully developed and deployed a Company Finance
+              Management Portal, showcasing my ability to handle end-to-end
+              project development and deliver impactful results.
+              <br />
+              Additionally, I gained valuable industry exposure through a
+              Full-Stack Development internship with a Tamil Nadu-based company.
+              <br />
+              Currently, I’m working at a Bengaluru-based startup, where I
+              contribute to both front-end and back-end development.
+              <br />
+              I thrive in collaborative environments and love turning creative
+              ideas into efficient, scalable solutions.
+              <br />
+              My goal is to build meaningful applications that solve real-world
+              problems and bring value to users and businesses alike.
             </p>
+
             <a
               className="btnn"
-              href="https://drive.google.com/file/d/1awdoxfXJjEa5D5V58dKIQInDl4gP6PFK/view?usp=sharing"
+              href="https://drive.google.com/file/d/1xZXaREMOSTXD5Epqx6D7BIzSJYF8HuoA/view?usp=sharing"
             >
               Resume
             </a>
