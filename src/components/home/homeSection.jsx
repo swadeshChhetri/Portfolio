@@ -62,7 +62,7 @@ const HomeSection = () => {
               download
               className="btnn"
             >
-              <i className="bi bi-arrow-down-circle"></i> Dowload CV
+              <i className="bi bi-arrow-down-circle"></i> Download CV
             </a>
             <Link to="contact" className="btnn" offset={-30} duration={1500}>
               <i className="bi bi-briefcase"></i> Hire Me
