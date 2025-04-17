@@ -7,7 +7,7 @@ const AboutSection = () => {
       <section style={{ padding: "50px" }} id="about">
         <h2 className="gf_h2 heading">
           <i className="bi bi-person-fill-check"></i>
-          I am ABOUT<span>Me</span>
+          ABOUT<span>Me</span>
         </h2>
         <div className="about-container">
           <div
